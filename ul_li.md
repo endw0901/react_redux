@@ -20,17 +20,18 @@ const GuestList: React.FC = () => {
   };
   return (
     <div>
-      <h3>Guist List</h3>
+      <h3>Guest List</h3>
       <ul>
         {guests.map((guest) => (
           <li key={guest}>{guest}</li>
         ))}
       </ul>
       <input value={name} onChange={(e) => setName(e.target.value)} />
-      <button>Add Guest</button>
+      <button onClick={onClick}>Add Guest</button>
     </div>
   );
 };
 
 export default GuestList;
+
 ```
