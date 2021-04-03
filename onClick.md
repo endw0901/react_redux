@@ -2,7 +2,9 @@
 
 https://github.com/endw0901/react_typescript/blob/main/rts/src/state/GuestList.tsx
 
-- <button onClick={onClick}>Add Guest</button>
+```
+<button onClick={onClick}>Add Guest</button>
+```
 - 
 ```
 import { useState } from 'react';
