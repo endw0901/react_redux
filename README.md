@@ -4,5 +4,8 @@
 
 ```
 npx create-react-app <appname> --template typescript
-
+cd rts
+npm start
 ```
+
+template
