@@ -1,7 +1,9 @@
 # reducers
 
-https://github.com/endw0901/react_typescript/tree/main/redux-ts/src/state
-https://github.com/endw0901/react_typescript/blob/main/redux-ts/src/state/reducers/repositoriesReducuer.ts
+## reducers, Actions, Action Types
+
+- https://github.com/endw0901/react_typescript/tree/main/redux-ts/src/state
+- https://github.com/endw0901/react_typescript/blob/main/redux-ts/src/state/reducers/repositoriesReducuer.ts
 
 - 引数と戻りにinterfaceでtypeチェックする
 - state, reducer戻りのtypeチェック
