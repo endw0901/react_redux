@@ -5,4 +5,4 @@
 
 ## useSelector
 
-- state/reducersのreturn dataタイプ理解：参照： reducers
+- state/reducersのreturn dataタイプ理解：参照： reducers https://github.com/endw0901/react_typescript/blob/main/reducers.md
