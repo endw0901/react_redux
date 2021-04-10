@@ -22,3 +22,6 @@ yarn add -D @types/react
 ### Could not find a declaration file for module ‘react’.の対処について
 
 - https://qiita.com/waniwaninowani/items/7ea8b4eacab296758c19
+
+## documents
+- React-Redux with Typescript： https://react-redux.js.org/using-react-redux/usage-with-typescript
