@@ -12,3 +12,8 @@ https://github.com/endw0901/react_typescript/blob/main/rts/src/events/EventCompo
     console.log(event);
   };
 ```
+
+
+## event.preventDefault()
+- submitボタンクリック時にページがリフレッシュする挙動をなくす
+- https://github.com/endw0901/react_typescript/blob/main/redux-ts/src/components/RepositoriesList.tsx
