@@ -20,3 +20,8 @@
 - 
 - https://github.com/endw0901/react_typescript/blob/main/redux-ts/src/state/reducers/index.ts
 - https://github.com/endw0901/react_typescript/blob/main/redux-ts/src/state/index.ts
+
+
+- state/reducersのtype理解のため、reducuers/indexで新しいtypeを作る
+- useTypedSelector hook => stateがreducerのkey valueを理解するようになる
+- https://github.com/endw0901/react_typescript/blob/main/redux-ts/src/hooks/useTypedSelector.ts
