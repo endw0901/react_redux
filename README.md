@@ -28,6 +28,12 @@ npm init -y
 npm install --save-exact webpack@5.11.1 webpack-cli@4.3.0
 ```
 
+### jbook
+
+```
+npx create-react-app jbook --template typescript
+```
+
 ### Could not find a declaration file for module ‘react’.の対処について
 
 - https://qiita.com/waniwaninowani/items/7ea8b4eacab296758c19
