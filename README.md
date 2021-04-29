@@ -35,6 +35,7 @@ npx create-react-app jbook --template typescript
 cd jbook
 npm install --save-exact esbuild-wasm@0.8.27
 yarn add -D @types/react
+npm start
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
