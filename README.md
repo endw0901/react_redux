@@ -38,6 +38,7 @@ yarn add -D @types/react
 npm start
 npm view react dist.tarball
 npm install axios
+npm install localforage
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
