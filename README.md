@@ -36,6 +36,8 @@ cd jbook
 npm install --save-exact esbuild-wasm@0.8.27
 yarn add -D @types/react
 npm start
+npm view react dist.tarball
+npm install axios
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
