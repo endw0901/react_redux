@@ -39,6 +39,7 @@ npm start
 npm view react dist.tarball
 npm install axios
 npm install localforage
+npm install --save-exact @monaco-editor/react@3.7.5
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
