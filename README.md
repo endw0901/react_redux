@@ -42,6 +42,7 @@ npm install localforage
 npm install --save-exact @monaco-editor/react@3.7.5
 npm install --save-exact monaco-editor
 npm install prettier @types/prettier
+npm install bulmaswatch
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
