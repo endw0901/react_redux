@@ -43,6 +43,7 @@ npm install --save-exact @monaco-editor/react@3.7.5
 npm install --save-exact monaco-editor
 npm install prettier @types/prettier
 npm install bulmaswatch
+npm install --save-exact monaco-jsx-highlighter@0.0.15 jscodeshift@0.11.0 @types/jscodeshift@0.7.2
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
