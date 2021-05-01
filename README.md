@@ -44,6 +44,10 @@ npm install --save-exact monaco-editor
 npm install prettier @types/prettier
 npm install bulmaswatch
 npm install --save-exact monaco-jsx-highlighter@0.0.15 jscodeshift@0.11.0 @types/jscodeshift@0.7.2
+npm install --save-exact react-resizable@1.11.0 @types/react-resizable@1.7.2
+
+// import reactでエラーになったらこれ
+yarn add -D @types/react
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
