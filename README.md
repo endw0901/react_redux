@@ -45,6 +45,7 @@ npm install prettier @types/prettier
 npm install bulmaswatch
 npm install --save-exact monaco-jsx-highlighter@0.0.15 jscodeshift@0.11.0 @types/jscodeshift@0.7.2
 npm install --save-exact react-resizable@1.11.0 @types/react-resizable@1.7.2
+npm install --save-exact @uiw/react-md-editor@2.1.1
 
 // import reactでエラーになったらこれ
 yarn add -D @types/react
