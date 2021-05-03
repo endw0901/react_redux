@@ -84,6 +84,11 @@ cd ..
 cd cli
 // 起動 ※cli上で依存するlocal-apiが起動する
 node index.js
+
+lerna add typescript --dev --scope=local-api
+cd ..
+cd local-api
+npx typescript --init
 ``
 
 ### Could not find a declaration file for module ‘react’.の対処について
