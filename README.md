@@ -77,6 +77,8 @@ npm init -y
 
 // local-apiで
 lerna add commander --scope=cli
+// local-apiにindex.js追加後
+lerna add local-api --scope=cli
 ``
 
 ### Could not find a declaration file for module ‘react’.の対処について
