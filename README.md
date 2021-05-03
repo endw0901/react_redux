@@ -120,6 +120,9 @@ lerna add typescript --dev --scope=cli
   }
   
 テスト：jbook直下でnpm run start
+
+// jbook直下
+lerna add @types/node --dev --scope=cli
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
