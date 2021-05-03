@@ -74,7 +74,10 @@ npm init -y
 
 ※lernaではnpm installを使わず、lerna addで管理
 ※learnaではなくlerna
-```
+
+// local-apiで
+lerna add commander --scope=cli
+``
 
 ### Could not find a declaration file for module ‘react’.の対処について
 
