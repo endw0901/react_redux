@@ -124,6 +124,8 @@ lerna add typescript --dev --scope=cli
 
 // jbook直下
 lerna add @types/node --dev --scope=cli
+// packages直下
+lerna add express --scope=local-api
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
