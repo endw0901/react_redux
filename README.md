@@ -95,7 +95,7 @@ npx typescript --init
 // local-apiのpackage.jsonのscriptに下記を挿入
   "scripts": {
     "start": "tsc --watch --preserveWatchOutput",
-``
+```
 
 ### Could not find a declaration file for module ‘react’.の対処について
 
