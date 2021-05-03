@@ -104,6 +104,8 @@ npx typescript --init
 cd ..
 cd cli
 ※index.tsを作成
+npx typescript --init
+lerna add typescript --dev --scope=cli
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
