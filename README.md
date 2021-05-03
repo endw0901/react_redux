@@ -62,7 +62,15 @@ cd jbook
 lerna init
 local-clientをフォルダごとjbook/package配下に移動
 
+cd packages
+mkdir cli
+mkdir local-api
 
+cd cli
+npm init -y
+cd ..
+cd local-api
+npm init -y
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
