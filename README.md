@@ -82,7 +82,7 @@ lerna add local-api --scope=cli
 // cliにindex.jsを追加後、起動
 cd ..
 cd cli
-// 起動
+// 起動 ※cli上で依存するlocal-apiが起動する
 node index.js
 ``
 
