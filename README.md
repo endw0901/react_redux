@@ -71,6 +71,9 @@ npm init -y
 cd ..
 cd local-api
 npm init -y
+
+※lernaではnpm installを使わず、lerna addで管理
+※learnaではなくlerna
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
