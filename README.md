@@ -49,6 +49,11 @@ npm install --save-exact @uiw/react-md-editor@2.1.1
 npm install --save-exact @types/react-redux@7.1.15 react-redux@7.2.2 redux@4.0.5 redux-thunk@2.3.0 axios@0.21.1
 npm install immer
 npm install @fortawesome/fontawesome-free
+
+// import reactでエラーになったらこれ
+yarn add -D @types/react
+
+// Lernaインストール・初期設定
 npm install -g --save-exact lerna@3.22.1
 
 ※jbookをlocak-clientにrenameして別フォルダ作成
@@ -57,8 +62,7 @@ cd jbook
 lerna init
 local-clientをフォルダごとjbook/package配下に移動
 
-// import reactでエラーになったらこれ
-yarn add -D @types/react
+
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
