@@ -51,6 +51,12 @@ npm install immer
 npm install @fortawesome/fontawesome-free
 npm install -g --save-exact lerna@3.22.1
 
+※jbookをlocak-clientにrenameして別フォルダ作成
+mkdir jbook
+cd jbook
+lerna init
+
+
 // import reactでエラーになったらこれ
 yarn add -D @types/react
 ```
