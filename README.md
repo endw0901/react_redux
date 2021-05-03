@@ -55,7 +55,7 @@ npm install -g --save-exact lerna@3.22.1
 mkdir jbook
 cd jbook
 lerna init
-
+local-clientをフォルダごとjbook/package配下に移動
 
 // import reactでエラーになったらこれ
 yarn add -D @types/react
