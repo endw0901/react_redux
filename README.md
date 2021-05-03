@@ -96,8 +96,9 @@ npx typescript --init
   "scripts": {
     "start": "tsc --watch --preserveWatchOutput",
     
-// local-apiでtypescriptをjavascriptにtranspileしてからcliに渡すため、local-apiのpackage.jsonのmainを下記に変更
+// local-apiでtypescriptをjavascriptにtranspileしてからcliに渡すため、local-apiのpackage.jsonのmainを下記に変更（＋typesも挿入
 "main": "dist/index.js",
+"types": "dist/index.d.ts",
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
