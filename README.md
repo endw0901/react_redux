@@ -106,6 +106,10 @@ cd cli
 ※index.tsを作成
 npx typescript --init
 lerna add typescript --dev --scope=cli
+// cliにもsrcフォルダを作成し、tsconfigファイル設定："outDir": "./dist"(cliはほかにimportされないのでdeclarationは不要
+// package.jsonからmainの行を削除。scriptは同じく
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
