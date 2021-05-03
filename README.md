@@ -110,6 +110,9 @@ lerna add typescript --dev --scope=cli
 // package.jsonからmainの行を削除。scriptは同じく
   "scripts": {
     "start": "tsc --watch --preserveWatchOutput",
+    
+テスト：npm run start
+テスト：cd dist => node index.jsでlocal-api起動テスト
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
