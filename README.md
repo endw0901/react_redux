@@ -126,6 +126,10 @@ lerna add typescript --dev --scope=cli
 lerna add @types/node --dev --scope=cli
 // packages直下
 lerna add express --scope=local-api
+lerna add @types/express --dev --scope=local-api
+lerna add cors --scope=local-api
+lerna add @types/cors --dev --scope=local-api
+lerna add http-proxy-middleware --scope=local-api
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
