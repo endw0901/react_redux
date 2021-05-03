@@ -113,6 +113,11 @@ lerna add typescript --dev --scope=cli
     
 テスト：npm run start
 テスト：cd dist => node index.jsでlocal-api起動テスト
+
+// rootのpackage.jsonに下記を追加して、cliもlocal-apiもまとめて起動できるコマンドを作成
+  "script": {
+    "start": "lerna run start --parallel"
+  }
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
