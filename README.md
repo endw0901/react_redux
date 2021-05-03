@@ -91,6 +91,10 @@ lerna add typescript --dev --scope=local-api
 cd ..
 cd local-api
 npx typescript --init
+// local-apiにsrcフォルダを作成し、tsconfigファイル設定："outDir": "./dist",、declaration: true
+// local-apiのpackage.jsonのscriptに下記を挿入
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
 ``
 
 ### Could not find a declaration file for module ‘react’.の対処について
