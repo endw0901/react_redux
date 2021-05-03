@@ -99,6 +99,11 @@ npx typescript --init
 // local-apiでtypescriptをjavascriptにtranspileしてからcliに渡すため、local-apiのpackage.jsonのmainを下記に変更（＋typesも挿入
 "main": "dist/index.js",
 "types": "dist/index.d.ts",
+
+// cli, local-apiのindex.jsは削除
+cd ..
+cd cli
+※index.tsを作成
 ```
 
 ### Could not find a declaration file for module ‘react’.の対処について
