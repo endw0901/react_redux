@@ -120,6 +120,7 @@ lerna add typescript --dev --scope=cli
   }
   
 テスト：jbook直下でnpm run start
+  ※commanderでcliの開発はこの起動状態でやること（jsにtranspileされる必要があるので
 
 // jbook直下
 lerna add @types/node --dev --scope=cli
