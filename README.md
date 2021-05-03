@@ -86,6 +86,8 @@ cd cli
 node index.js
 
 lerna add typescript --dev --scope=local-api
+
+// tsconfig.jsonファイル作成
 cd ..
 cd local-api
 npx typescript --init
