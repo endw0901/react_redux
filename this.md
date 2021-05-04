@@ -33,6 +33,8 @@ const drive = car.drive;
 drive()
 ```
 
+### arrow functionでコンテキストの問題を解決
+
 
 ### constructorのbindでコンテキスト問題を解決した例（レガシー）
 
