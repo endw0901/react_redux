@@ -199,4 +199,7 @@ npm install -g tiny-npm-deploy
 
 // 次回から、npx不要で直接実行できる
 tiny-npm-deploy
+
+ [jsbookで追記]
+npx bookendw
 ```
