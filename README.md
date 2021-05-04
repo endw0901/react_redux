@@ -28,7 +28,7 @@ npm init -y
 npm install --save-exact webpack@5.11.1 webpack-cli@4.3.0
 ```
 
-### jbook
+### [jbook](https://github.com/endw0901/react_typescript/tree/main/jbook)
 
 ```
 npx create-react-app jbook --template typescript
