@@ -174,12 +174,21 @@ git commit -m "initial commit"
    ※npm run publish ではない <br>
 
 ```
+ [jsbookで追記]
+// jbook直下で ※no-pushは、lernaがgit pushをしないようにガード
+// Major 1.0.0を選んでpublish yes
+lerna publish --no-push
+
+```
+
+```
 npm login
 npm publish
 ```
 
 ※spam 検知エラー対応：package.json の name に年月日を入れていると起こりやすいので外す <br>
 https://stackoverflow.com/questions/48668389/npm-publish-failed-with-package-name-triggered-spam-detection <br>
+
 
 9. (publish 後)NPM ライブラリからダウンロードしてローカルで起動
    ライブラリ：<br>
