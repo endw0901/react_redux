@@ -152,9 +152,15 @@ lerna add esbuild@0.8.26 --exact --dev --scope=bookendw
 7. commit to git
 
 ```
+// 階層配下のgit不要なものを消すとき
+cd local-client
+rm -rf .git
+
+// プロジェクト直下(jbookならjbook直下)
 git init
 
 // .gitignoreファイル作成
+build
 dist
 node_modules
 
