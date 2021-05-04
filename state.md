@@ -10,7 +10,9 @@
 - [useEffect](https://github.com/endw0901/react_typescript/blob/main/useEffect.md)
 - [useRef](https://github.com/endw0901/react_typescript/blob/main/useRef.md)
 - [lifeCycle](https://github.com/endw0901/react_typescript/blob/main/lifecycle.md)
-- 
+- [form](https://github.com/endw0901/react_typescript/edit/main/form.md) <br>
+※inputのvalueをDOMでなくstateで保持<br>
+
 ## useStateに配列を格納
 https://github.com/endw0901/react_typescript/blob/main/rts/src/state/GuestList.tsx
 
