@@ -1,5 +1,10 @@
 # state
 
+- state = JSオブジェクトで、クラスcomponentのデータを保持する
+- stateを更新すると再度renderされる
+- component生成時に初期化されないといけない
+- setStateで更新するルール
+
 ## useStateに配列を格納
 https://github.com/endw0901/react_typescript/blob/main/rts/src/state/GuestList.tsx
 
