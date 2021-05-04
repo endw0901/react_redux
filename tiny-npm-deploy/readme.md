@@ -32,6 +32,8 @@ npm run build
    が npmjs.com で検索してユニークであること
 
     ※npmでorganizationを作成
+    トップのみ@xxxx(organization名)とし、dependenciesのプロジェクトは
+    @xxxx/local-apiのようにする
 
 2. デプロイするファイルを決める => package.json の files に指定(dist すべて)
 
