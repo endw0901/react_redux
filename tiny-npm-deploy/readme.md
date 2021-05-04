@@ -126,6 +126,7 @@ npm run build
 
 ```
  [jsbookで追記]
+// cliにまとめるための改善(local-api, local-clientの依存について)
 // packages直下で実行。「bookendw」箇所はcliのpackage.jsonのnameを指定
 lerna add esbuild@0.8.26 --exact --dev --scope=bookendw
  
@@ -134,7 +135,18 @@ lerna add esbuild@0.8.26 --exact --dev --scope=bookendw
     "start": "tsc --watch --preserveWatchOutput",
     "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\""
   },
- 
+  
+// cliのpackage.json編集
+   "dependencies": {
+    "@bookendw/local-client": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.1",
+    "esbuild": "0.8.26",
+    "typescript": "^4.2.4",
+    "@bookendw/local-api": "^1.0.0",
+    "commander": "^7.2.0"
+  }
 ```
 
 7. commit to git
