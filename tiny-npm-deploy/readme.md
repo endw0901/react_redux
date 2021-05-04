@@ -41,6 +41,8 @@ npm run build
     
     // packages直下で下記 => import文のエラーが解消される（リンクができるので）
     lerna bootstrap
+    // jbook直下で
+    npm run start
 ```
 
 2. デプロイするファイルを決める => package.json の files に指定(dist すべて)
@@ -49,6 +51,9 @@ npm run build
   "files": [
     "dist"
   ],
+  
+  [jsbookで追記]
+  local-clientはdistはないので、buildを指定
 ```
 
 3. dependencies と devDependencies を分ける<br>
