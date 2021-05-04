@@ -11,7 +11,7 @@
 ※API callの詳細コードを別ファイルに分けてリファクタリング <br>
 
 
-- [Google翻訳API]()
+ - [Dropdown・Accordion・Google翻訳API](https://github.com/endw0901/react_typescript/tree/main/dropdown_translate/src) <br>
 
 ```
 // App.js
