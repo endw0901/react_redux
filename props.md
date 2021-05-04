@@ -40,3 +40,4 @@ export const ChildAsFC: React.FC<ChildProps> = ({
 
 ## ルール
 - 親から子へ。逆はない
+- 子から親へのcallbackについて
