@@ -11,6 +11,8 @@
 ※API callの詳細コードを別ファイルに分けてリファクタリング <br>
 
 
+- [Google翻訳API]()
+
 ```
 // App.js
 class App extends React.Component {
