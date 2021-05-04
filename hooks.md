@@ -10,3 +10,8 @@
 ## useSelector
 
 - state/reducersのreturn dataタイプ理解：参照： reducers https://github.com/endw0901/react_typescript/blob/main/reducers.md
+
+## 関連
+- [useRef](https://github.com/endw0901/react_typescript/blob/main/useRef.md)
+- [useEffect](https://github.com/endw0901/react_typescript/blob/main/useEffect.md)
+- [useState](https://github.com/endw0901/react_typescript/blob/main/state.md)
