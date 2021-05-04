@@ -34,7 +34,7 @@ drive()
 ```
 
 ### arrow functionでコンテキストの問題を解決
-
+- [サンプル：検索バー](https://github.com/endw0901/react_typescript/tree/main/searchbar/src)
 
 ### constructorのbindでコンテキスト問題を解決した例（レガシー）
 
