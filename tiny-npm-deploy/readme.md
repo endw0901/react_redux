@@ -31,11 +31,17 @@ npm run build
 1. package.json の"name": "tiny-npm-deployxxxxxxx",
    が npmjs.com で検索してユニークであること
 
+```
+[jsbookで追記]
     ※npmでorganizationを作成
     トップのみ@xxxx(organization名)とし、dependenciesのプロジェクトは
     @xxxx/local-apiのようにする
     ※dependencies上のnameも上記にあわせて変更
     ※import文のfrom、require.resolveも使っているところは変更
+    
+    // packages直下で下記 => import文のエラーが解消される（リンクができるので）
+    lerna bootstrap
+```
 
 2. デプロイするファイルを決める => package.json の files に指定(dist すべて)
 
