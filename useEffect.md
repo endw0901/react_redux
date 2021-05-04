@@ -22,3 +22,7 @@ https://github.com/endw0901/react_typescript/blob/main/rts/src/refs/UserSearch.t
 ## 関連
 
 - [クラスのlifecycle](https://github.com/endw0901/react_typescript/blob/main/lifecycle.md)
+
+
+- Accordion <br>
+※useEffectとasync await API
