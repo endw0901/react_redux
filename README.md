@@ -140,3 +140,7 @@ lerna add local-client --scope=local-api
 
 ## documents
 - React-Redux with Typescript： https://react-redux.js.org/using-react-redux/usage-with-typescript
+
+## NPMデプロイ
+
+- tiny-npm-deployプロジェクトreadme参照
