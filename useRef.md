@@ -32,6 +32,41 @@ https://github.com/endw0901/react_typescript/blob/main/rts/src/refs/UserSearch.t
       />
 ```
 
+## capture remove
+
+```
+  useEffect(() => {
+    const onBodyClick = (event) => {
+      if (ref.current.contains(event.target)) {
+        return;
+      }
+      setOpen(false);
+    };
+    document.body.addEventListener("click", onBodyClick, { capture: true });
+ 
+    return () => {
+      document.body.removeEventListener("click", onBodyClick, {
+        capture: true,
+      });
+    };
+  }, []);
+    useEffect(() => {
+    const onBodyClick = (event) => {
+      if (ref.current.contains(event.target)) {
+        return;
+      }
+      setOpen(false);
+    };
+    document.body.addEventListener("click", onBodyClick, { capture: true });
+ 
+    return () => {
+      document.body.removeEventListener("click", onBodyClick, {
+        capture: true,
+      });
+    };
+  }, []);
+  ```
+  
 ## 関連
 - [callbacks on Image load](https://github.com/endw0901/react_typescript/tree/main/unsplash_api/src) <br>
 ※useRefで画像の高さを取得する方法
