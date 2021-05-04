@@ -25,4 +25,5 @@ https://github.com/endw0901/react_typescript/blob/main/rts/src/refs/UserSearch.t
 
 
 - Accordion <br>
-※useEffectとasync await API
+※useEffectとasync await API <br>
+※参照：Search.js <br>
