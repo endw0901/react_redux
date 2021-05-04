@@ -124,6 +124,19 @@ npm run build
   },
 ```
 
+```
+ [jsbookで追記]
+// packages直下で実行。「bookendw」箇所はcliのpackage.jsonのnameを指定
+lerna add esbuild@0.8.26 --exact --dev --scope=bookendw
+ 
+// cliのpackage.json編集
+   "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
+    "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\""
+  },
+ 
+```
+
 7. commit to git
 
 ```
