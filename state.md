@@ -5,6 +5,8 @@
 - component生成時に初期化されないといけない
 - setStateで更新するルール
 
+- クラスはstate、関数componentはhookでuseState
+
 ## 関連
 - [constructor](https://github.com/endw0901/react_typescript/blob/main/constructor.md)
 - [useEffect](https://github.com/endw0901/react_typescript/blob/main/useEffect.md)
