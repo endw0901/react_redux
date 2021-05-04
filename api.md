@@ -10,6 +10,21 @@
 ※thisコンテキスト問題解決のため、arrow functionを使う <br>
 ※API callの詳細コードを別ファイルに分けてリファクタリング <br>
 
+
+```
+// App.js
+class App extends React.Component {
+  state = { images: [] };
+
+  onSearchSubmit = async term => {
+    const response = await unsplash.get('/search/photos', {
+      params: { query: term }
+    });
+
+    this.setState({ images: response.data.results });
+  };
+```
+  
 ## 関連
 - [API call : async-await を使わない promise .then 方式 ⇔ async-await 方式](https://github.com/endw0901/javascript/tree/main/lyrics-search)
 - [arror functionでthisのコンテキスト問題を解決](https://github.com/endw0901/react_typescript/edit/main/this.md)
