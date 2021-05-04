@@ -1,5 +1,6 @@
 # props typescript
 
+## typescript
 https://github.com/endw0901/react_typescript/blob/main/rts/src/props/Child.tsx
 
 ```
@@ -36,3 +37,6 @@ export const ChildAsFC: React.FC<ChildProps> = ({
 - [Reuseの例] (https://github.com/endw0901/react_typescript/tree/main/reuse) <br>
 カードのなかのコメント詳細 <br>
 コンポーネントの再利用 <br>
+
+## ルール
+- 親から子へ。逆はない
