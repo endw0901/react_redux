@@ -13,3 +13,7 @@ https://github.com/endw0901/react_typescript/blob/main/rts/src/refs/UserSearch.t
     inputRef.current.focus();
   }, []);
 ```
+
+## 関連
+
+- [クラスのlifecycle](https://github.com/endw0901/react_typescript/blob/main/lifecycle.md)
