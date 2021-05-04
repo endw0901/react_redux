@@ -105,6 +105,23 @@ npm run build
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
+  
+  
+ [jsbookで追記]
+// cli, local-apiの場合
+    "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
+    "prepublishOnly": "tsc"    
+  },
+  
+// local-clientの場合
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prepublishOnly": "npm run build"
+  },
 ```
 
 7. commit to git
