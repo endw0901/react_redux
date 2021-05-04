@@ -24,7 +24,11 @@ class App extends React.Component {
     this.setState({ images: response.data.results });
   };
 ```
-  
+
+- [YouTube Video検索](https://github.com/endw0901/react_typescript/tree/main/videos/src)
+- [Accessing the Youtbe API](https://www.udemy.com/course/react-redux/learn/lecture/12531356#overview) <br>
+※embed URIの指定など <br>
+
 ## 関連
 - [API call : async-await を使わない promise .then 方式 ⇔ async-await 方式](https://github.com/endw0901/javascript/tree/main/lyrics-search)
-- [arror functionでthisのコンテキスト問題を解決](https://github.com/endw0901/react_typescript/edit/main/this.md)
+- [arror functionでthisのコンテキスト問題を解決](https://github.com/endw0901/react_typescript/edit/main/this.md) 
