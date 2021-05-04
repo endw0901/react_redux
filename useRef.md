@@ -2,6 +2,11 @@
 
 - document.querySelector('img').clientHeightのようなjavascriptの代わりにReactではuseRefでDOMにアクセスする
 
+```
+// DOMにアクセスし、指定のものであるとき、という使い方(dropdown参照
+if (ref.current.contains(event.target)) {
+```
+
 ## typescript
 https://github.com/endw0901/react_typescript/blob/main/rts/src/refs/UserSearch.tsx
 
