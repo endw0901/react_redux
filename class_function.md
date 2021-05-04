@@ -1,5 +1,6 @@
 # classとfunctionのstate・propsの違い
 
+- classはfunctionに加えて、ライフサイクル(useEffect?)や、stateシステムの利用が可能
 
 ## class
 
