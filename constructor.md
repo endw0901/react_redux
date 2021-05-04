@@ -9,3 +9,5 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 ```
+
+- constructorを使わずにstateの初期化が可能 参考 [seasons](https://github.com/endw0901/react_typescript/tree/main/seasons/src)
