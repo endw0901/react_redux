@@ -20,3 +20,4 @@ https://github.com/endw0901/react_typescript/blob/main/rts/src/events/EventCompo
 
 ## 関連
 - [form](https://github.com/endw0901/react_typescript/blob/main/form.md)
+- [arror functionでthisのコンテキスト問題を解決](https://github.com/endw0901/react_typescript/edit/main/this.md)
