@@ -3,7 +3,7 @@
 - state = JSオブジェクトで、クラスcomponentのデータを保持する
 - stateを更新すると再度renderされる
 - component生成時に初期化されないといけない
-- setStateで更新するルール
+- setStateで更新するルール => hookのuseStateは activeIndexならsetActiveIndex(xx);
 
 - クラスはstate、関数componentはhookでuseState
 
