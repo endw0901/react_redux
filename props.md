@@ -31,3 +31,8 @@ export const ChildAsFC: React.FC<ChildProps> = ({
   );
 };
 ```
+
+## 再利用 Reuse
+- [Reuseの例] (https://github.com/endw0901/react_typescript/tree/main/reuse) <br>
+カードのなかのコメント詳細 <br>
+コンポーネントの再利用 <br>
