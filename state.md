@@ -5,8 +5,12 @@
 - component生成時に初期化されないといけない
 - setStateで更新するルール
 
+## 関連
 - [constructor](https://github.com/endw0901/react_typescript/blob/main/constructor.md)
-
+- [useEffect](https://github.com/endw0901/react_typescript/blob/main/useEffect.md)
+- [useRef](https://github.com/endw0901/react_typescript/blob/main/useRef.md)
+- [lifeCycle](https://github.com/endw0901/react_typescript/blob/main/lifecycle.md)
+- 
 ## useStateに配列を格納
 https://github.com/endw0901/react_typescript/blob/main/rts/src/state/GuestList.tsx
 
