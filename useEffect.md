@@ -28,7 +28,7 @@ https://github.com/endw0901/react_typescript/blob/main/rts/src/refs/UserSearch.t
 - [クラスのlifecycle](https://github.com/endw0901/react_typescript/blob/main/lifecycle.md)
 
 
-- Accordion <br>
+- [Accordion](https://github.com/endw0901/react_typescript/tree/main/dropdown_translate/src) <br>
 ※useEffectとasync await API <br>
 ※参照：Search.js <br>
 
