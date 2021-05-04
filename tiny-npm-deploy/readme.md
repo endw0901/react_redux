@@ -31,6 +31,8 @@ npm run build
 1. package.json の"name": "tiny-npm-deployxxxxxxx",
    が npmjs.com で検索してユニークであること
 
+    ※npmでorganizationを作成
+
 2. デプロイするファイルを決める => package.json の files に指定(dist すべて)
 
 ```
