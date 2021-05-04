@@ -176,9 +176,8 @@ git commit -m "initial commit"
 ```
  [jsbookで追記]
 // jbook直下で ※no-pushは、lernaがgit pushをしないようにガード
-// Major 1.0.0を選んでpublish yes
+// Major 1.0.0を選んでpublish yes ※local-clientが重いため数分かかる
 lerna publish --no-push
-
 ```
 
 ```
