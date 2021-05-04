@@ -8,7 +8,7 @@
 - [Unsplash API]() <br>
 ※検索バーで指定したテキストをkeyに、APIで取得したimage配列をstateに格納して画面に表示する <br>
 ※thisコンテキスト問題解決のため、arrow functionを使う <br>
-
+※API callの詳細コードを別ファイルに分けてリファクタリング <br>
 
 ## 関連
 - [API call : async-await を使わない promise .then 方式 ⇔ async-await 方式](https://github.com/endw0901/javascript/tree/main/lyrics-search)
