@@ -21,3 +21,4 @@
 
 - [Unsplash API](https://github.com/endw0901/react_typescript/tree/main/unsplash_api/src) <br>
 ※外部APIで取得した画像のリストをmap関数で画面に表示 <br>
+※リストにはkeyが必要 <br>
