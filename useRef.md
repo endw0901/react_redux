@@ -30,3 +30,22 @@ https://github.com/endw0901/react_typescript/blob/main/rts/src/refs/UserSearch.t
 ## 関連
 - [callbacks on Image load](https://github.com/endw0901/react_typescript/tree/main/unsplash_api/src) <br>
 ※useRefで画像の高さを取得する方法
+
+```
+// ImageCard.js
+
+class ImageCard extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = { spans: 0 };
+
+    this.imageRef = React.createRef();
+  }
+
+  componentDidMount() {
+    this.imageRef.current.addEventListener('load', this.setSpans);
+  }
+
+
+```
