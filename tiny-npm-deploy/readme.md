@@ -69,6 +69,9 @@ npm run build
     "@types/express": "^4.17.11",
     "typescript": "^4.2.4"
   }
+  
+    [jsbookで追記]
+    local-clientはすべて不要なのでdevにかえる
 ```
 
 4. package を public アクセス開放 => package.json 編集
