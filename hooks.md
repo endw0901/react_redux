@@ -1,4 +1,8 @@
 # hooks
+- [classとfunctionの違い](https://github.com/endw0901/react_typescript/blob/main/class_function.md)
+- classはfunctionに加えて、ライフサイクル(useEffect?)や、stateシステムの利用が可能
+- functionは、Hookを使うことでライフサイクル的な機能やstateシステムの利用が可能
+
 
 ## useActions hook
 - 参照：https://github.com/endw0901/react_typescript/blob/main/action_creators.md
