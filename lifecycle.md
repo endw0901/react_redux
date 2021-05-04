@@ -1,10 +1,12 @@
 # Component Lifecycle
 
-- constructor
-- render
-- componentDidMount
-- componentDidUpdate
-- componentWillUnmount
+1. constructor
+  ※dataローディングはするべきではない<br>
+2. render
+3. componentDidMount
+   ※dataローディングに最適<br>
+4. componentDidUpdate
+5. componentWillUnmount
 
 ## 関連
 
