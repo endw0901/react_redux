@@ -71,7 +71,8 @@ npm run build
   }
   
     [jsbookで追記]
-    local-clientはすべて不要なのでdevにかえる
+    local-clientはすでにbundleされていて、すべて不要なのでdevにかえる
+    ※buildのないcli, local-apiはdependenciesが必要
 ```
 
 4. package を public アクセス開放 => package.json 編集
@@ -80,6 +81,9 @@ npm run build
   "publishConfig": {
     "access": "public"
   },
+  
+      [jsbookで追記]
+      private:trueは削除して上記に置き換える
 ```
 
 5. CLI ビルド時に実行される file を決める <br>
