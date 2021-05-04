@@ -5,3 +5,6 @@
 - chrome F12の... => Sensors => Geolocation のoverrideが可能(ここはサンフランシスコ、とか
 - [現在の位置情報表示サンプル](https://github.com/endw0901/react_typescript/tree/main/seasons/src)
 - [Unsplash API]()
+
+## 関連
+- [API call : async-await を使わない promise .then 方式 ⇔ async-await 方式](https://github.com/endw0901/javascript/tree/main/lyrics-search)
