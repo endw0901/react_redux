@@ -28,6 +28,7 @@ class App extends React.Component {
 ```
 
 - [YouTube Video検索](https://github.com/endw0901/react_typescript/tree/main/videos/src)
+- [Video with hooks](https://github.com/endw0901/react_typescript/tree/main/videos-hooks/src)
 - [Accessing the Youtbe API](https://www.udemy.com/course/react-redux/learn/lecture/12531356#overview) <br>
 ※embed URIの指定など <br>
 
