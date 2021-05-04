@@ -143,4 +143,4 @@ lerna add local-client --scope=local-api
 
 ## NPMデプロイ
 
-- tiny-npm-deployプロジェクトreadme参照
+- [tiny-npm-deployプロジェクトreadme参照](https://github.com/endw0901/react_typescript/tree/main/tiny-npm-deploy)
