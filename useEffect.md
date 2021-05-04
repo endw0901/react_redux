@@ -2,9 +2,9 @@
 
 - useRefとあわせて、起動時の最初のフォーカス先を指定
 - 指定できるのは
-1. 最初のみ
-2. 最初 + renderのたび
-3. 最初 + renderのたび + dataが変化したとき
+1. []　　：最初のみ
+2. 未指定：最初 + renderのたび
+3. [data]：最初 + renderのたび + dataが変化したとき
 
 ## typescript
 https://github.com/endw0901/react_typescript/blob/main/rts/src/refs/UserSearch.tsx
