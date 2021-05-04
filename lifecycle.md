@@ -1,4 +1,5 @@
 # Component Lifecycle
+- クラスのLifecycle ※関数はhook useEffect
 
 1. constructor<br>
   ※dataローディングはするべきではない<br>
@@ -11,3 +12,4 @@
 ## 関連
 
 - [state](https://github.com/endw0901/react_typescript/blob/main/state.md)
+- [useEffect](https://github.com/endw0901/react_typescript/blob/main/useEffect.md)
