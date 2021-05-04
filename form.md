@@ -23,3 +23,4 @@ state -> {term: 'xxx'}
 ## 関連
 - [Event handler](https://github.com/endw0901/react_typescript/blob/main/event_handler.md)
 - [this](https://github.com/endw0901/react_typescript/edit/main/this.md)
+- [arror functionでthisのコンテキスト問題を解決](https://github.com/endw0901/react_typescript/edit/main/this.md)
