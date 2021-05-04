@@ -2,6 +2,7 @@
 
 - document.querySelector('img').clientHeightのようなjavascriptの代わりにReactではuseRefでDOMにアクセスする
 
+## typescript
 https://github.com/endw0901/react_typescript/blob/main/rts/src/refs/UserSearch.tsx
 
 
@@ -25,3 +26,5 @@ https://github.com/endw0901/react_typescript/blob/main/rts/src/refs/UserSearch.t
         onChange={(e) => setName(e.target.value)}
       />
 ```
+
+## 関連
