@@ -2,7 +2,9 @@
 
 - classはfunctionに加えて、ライフサイクル(useEffect?)や、stateシステムの利用が可能
 - functionは、Hookを使うことでライフサイクル的な機能やstateシステムの利用が可能
-- classはReact.Componentのsubclass(extend)。renderでJSX が必要
+- classはReact.Componentのsubclass(extend)。renderでJSX が必要 <br>
+<br>
+※関数component + hook(useState, useEffect, useRef)を使えばいい <br>
 
 ## class
 
