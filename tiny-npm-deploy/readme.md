@@ -35,6 +35,7 @@ npm run build
     トップのみ@xxxx(organization名)とし、dependenciesのプロジェクトは
     @xxxx/local-apiのようにする
     ※dependencies上のnameも上記にあわせて変更
+    ※import文のfromも使っているところは変更
 
 2. デプロイするファイルを決める => package.json の files に指定(dist すべて)
 
