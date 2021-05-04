@@ -34,3 +34,5 @@ https://github.com/endw0901/react_typescript/blob/main/rts/src/state/UserSearch.
 
 ## 関連
 - [this](https://github.com/endw0901/react_typescript/edit/main/this.md)
+- [子から親へのcallbackについて ](https://github.com/endw0901/react_typescript/blob/main/callback)
+- [props](https://github.com/endw0901/react_typescript/blob/main/props.md)
