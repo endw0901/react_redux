@@ -22,3 +22,4 @@ Action Creator => Action => dispatch => Middleware(redux-thunk) => Reducers => S
 
 ## 関連
 - [外部API](https://github.com/endw0901/react_typescript/blob/main/api.md)
+- [reducers](https://github.com/endw0901/react_typescript/edit/main/reducers.md)
