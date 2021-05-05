@@ -1,6 +1,6 @@
 # modal
 
-- サンプル：[Blog](https://github.com/endw0901/react_typescript/tree/main/streams/client/src/components)
+- サンプル：[streams](https://github.com/endw0901/react_typescript/tree/main/streams/client/src/components)
 
 - [javascript](https://github.com/endw0901/javascript/tree/main/modal-menu-slider)
 
