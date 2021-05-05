@@ -39,9 +39,6 @@ const Counter = connect(
 - [非同期処理にredux-thunkやredux-sagaは必要無い](https://qiita.com/Naturalclar/items/6157d0b031bbb00b3c73) <br>
 ※reactのcustom hooksを使えばいい(react-reduxのv7.1～hooks対応)
 
-## サンプル
-- [redux-thunkサンプル：blog](https://github.com/endw0901/react_typescript/tree/main/blog/src)
-
 ## 省略syntax
 - [260.Shortened Syntax with Redux Thunk](https://www.udemy.com/course/react-redux/learn/lecture/12586868#overview)
 
@@ -76,6 +73,56 @@ export const fetchPosts = () => async (dispatch) => {
   dispatch({ type: 'FETCH_POSTS', payload: response })
 };
 ```
+
+## サンプル
+- [redux-thunkサンプル：blog](https://github.com/endw0901/react_typescript/tree/main/blog/src)
+
+```
+// actions
+export const fetchPostsAndUsers = () => async (dispatch, getState) => {
+  await dispatch(fetchPosts());
+
+  _.chain(getState().posts)
+    .map('userId')
+    .uniq()
+    .forEach(id => dispatch(fetchUser(id)))
+    .value();
+};
+
+export const fetchPosts = () => async dispatch => {
+  const response = await jsonPlaceholder.get('/posts');
+
+  dispatch({ type: 'FETCH_POSTS', payload: response.data });
+};
+
+
+// PostList
+class PostList extends React.Component {
+  componentDidMount() {
+    this.props.fetchPostsAndUsers();
+  }
+
+const mapStateToProps = state => {
+  return { posts: state.posts };
+};
+
+export default connect(
+  mapStateToProps,
+  { fetchPostsAndUsers }
+)(PostList);
+  
+// reducer
+  switch (action.type) {
+    case 'FETCH_USER':
+      return [...state, action.payload];
+
+// index
+const store = createStore(reducers, applyMiddleware(thunk));
+
+ReactDOM.render(
+  <Provider store={store}>
+```
+
 
 ## 関連
 - [外部API](https://github.com/endw0901/react_typescript/blob/main/api.md)
