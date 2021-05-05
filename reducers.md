@@ -75,6 +75,16 @@ _.omit(state, 'age')
 
 ```
 
+### object-base構文
+- [342](https://www.udemy.com/course/react-redux/learn/lecture/12803139)
+
+
+```
+object-base 構文
+return { ...オブジェクト, [key]:value}
+オブジェクト[kay]の値を更新してそのkeyだけをreturnする構文
+※[key]は配列作成ではない。オブジェクトのkeyを示しているのみ
+```
 
 ## 関連
 - [redux-thunk](https://github.com/endw0901/react_typescript/blob/main/redux-thunk.md)
