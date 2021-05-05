@@ -82,7 +82,7 @@ _.omit(state, 'age')
 ```
 object-base 構文
 return { ...オブジェクト, [key]:value}
-オブジェクト[kay]の値を更新してそのkeyだけをreturnする構文
+オブジェクト[kay]の値を更新してreturnする構文
 ※[key]は配列作成ではない。オブジェクトのkeyを示しているのみ
 ```
 
