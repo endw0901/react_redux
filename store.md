@@ -7,3 +7,6 @@
 - https://github.com/endw0901/react_typescript/blob/main/redux-ts/src/state/reducers/index.ts
 
 - https://github.com/endw0901/react_typescript/blob/main/redux-ts/src/components/App.tsx
+
+
+## [redux](https://github.com/endw0901/react_typescript/blob/main/redux.md)
