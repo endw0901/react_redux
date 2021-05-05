@@ -18,9 +18,10 @@ formでstateを使う<br>
 
 // react はstateでvalueにアクセス
 state -> {term: 'xxx'}
-
 ```
+
 ## Redux Form
+
 1. user入力 <br>
 2. callbackがinvokeされる <br>
   ※onChange => handler => Redux Form Action Creator => Redux Form Reducer<br>
