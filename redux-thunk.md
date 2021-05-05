@@ -11,7 +11,7 @@
 - 流れ：<br>
 Action Creator => Action => dispatch => Middleware(redux-thunk) => Reducers => State<br>
 <br>
-1. component rendered <br>
+1. component rendered => reducerはdefaultの空stateを返す<br>
 2. componentDidMount => action creator => API request <br>
 3. API がdataを返す => reducerがactionをみてdata on payloadを返す<br>
  => new state object生成 <br>
