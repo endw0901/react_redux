@@ -25,3 +25,53 @@
 - state/reducersのtype理解のため、reducuers/indexで新しいtypeを作る
 - useTypedSelector hook => stateがreducerのkey valueを理解するようになる
 - https://github.com/endw0901/react_typescript/blob/main/redux-ts/src/hooks/useTypedSelector.ts
+
+## 良いstate変更と、悪いstate変更
+- [Section19](https://www.udemy.com/course/react-redux/learn/lecture/12586898#overview)
+- constは変更できないが、配列pushなどをやると変更できる。
+- reducerはやっていいstate変更と、ダメなstate変更がある
+- redux-thunkでは、state変更をとらえて再renderへ
+ 
+```
+1.配列から要素を削除
+// bad
+state.pop()
+// good
+state.filter(element => element != 'hi')
+
+2.配列に要素を追加
+// bad
+state.push('hi')
+// good
+[ ...state, 'hi']
+
+3.配列の要素のreplace
+// bad
+state[0] = 'hi'
+// good
+state.map(el => el === 'hi' ? 'bye' : el)
+
+4.オブジェクトのproperty更新
+// bad
+state.name = 'Sam'
+// good
+{ ...state, name: 'Sam' }
+
+5.オブジェクトのproperty追加
+// bad
+state.age = 30
+// good
+{ ...state, age: 30 }
+
+6. オブジェクトのproperty削除
+// bad
+delete state.name
+// good
+{ ...state, age: undefined}
+_.omit(state, 'age')
+
+```
+
+
+## 関連
+- [redux-thunk](https://github.com/endw0901/react_typescript/blob/main/redux-thunk.md)
