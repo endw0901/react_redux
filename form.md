@@ -35,6 +35,22 @@ state -> {term: 'xxx'}
   ※Redux Form Reducer => mapStateToProps => props => value<br>
  <br>
 
+- [StreamForm](https://github.com/endw0901/react_typescript/blob/main/streams/client/src/components/streams/StreamForm.js)
+```
+import { Field, reduxForm } from 'redux-form';
+
+  render() {
+    return (
+      <form
+        onSubmit={this.props.handleSubmit(this.onSubmit)}
+        className="ui form error"
+
+export default reduxForm({
+  form: 'streamForm',
+  validate
+})(StreamForm);
+
+```
 
 ## 関連
 - [Event handler](https://github.com/endw0901/react_typescript/blob/main/event_handler.md)
