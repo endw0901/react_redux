@@ -32,6 +32,9 @@ class App extends React.Component {
 - [Accessing the Youtbe API](https://www.udemy.com/course/react-redux/learn/lecture/12531356#overview) <br>
 ※embed URIの指定など <br>
 
+- [JsonPlaceholder]()
+
+
 ## 関連
 - [API call : async-await を使わない promise .then 方式 ⇔ async-await 方式](https://github.com/endw0901/javascript/tree/main/lyrics-search)
 - [arror functionでthisのコンテキスト問題を解決](https://github.com/endw0901/react_typescript/edit/main/this.md) 
