@@ -32,7 +32,7 @@ class App extends React.Component {
 - [Accessing the Youtbe API](https://www.udemy.com/course/react-redux/learn/lecture/12531356#overview) <br>
 ※embed URIの指定など <br>
 
-- [JsonPlaceholder]()  <br>
+- [JsonPlaceholder](https://github.com/endw0901/react_typescript/tree/main/blog/src)  <br>
 ※BLOG => actions
 
 
