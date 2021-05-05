@@ -54,3 +54,9 @@ export default connect(
 ## ツール
 - [redux-devtools-extention](https://github.com/zalmoxisus/redux-devtools-extension)
 - [Redux Devtools Extensionを使った時のこの感動を伝えたい](https://qiita.com/daiki7nohe/items/fa0f496eebb0980f86da)
+
+```
+import { createStore, applyMiddleware, compose } from 'redux';
+
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+```
