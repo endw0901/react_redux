@@ -85,13 +85,22 @@ return { ...オブジェクト, [key]:value}
 オブジェクト[kay]の値を更新してreturnする構文
 ※[key]は配列作成ではない。オブジェクトのkeyを示しているのみ
 
-// 例
+// 例1 既存keyで更新
 return { ...state, [action.payload.id]: action.payload };
 
 // 上記は、下記と同じ意味となる
 const newState = { ...state };
 newState[action.payload.id] = action.payload;
 return newState;
+
+// 例2 new-keyで追加
+const animalSounds = { cat: 'meow', dog: 'bark' };
+const animal = 'lion';
+const sound = 'roar';
+{ ...animalSounds, [animal]: sound}
+
+// 例2 結果
+ { cat: 'meow', dog: 'bark', lion: 'roar' }
 
 ```
 
