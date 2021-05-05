@@ -22,6 +22,18 @@ Action Creator => Action => dispatch => Middleware(redux-thunk) => Reducers => S
  <br>
 4. state更新をトリガーに => redux/react-reduxが再render <br>
 
+## Redux Hooks
+- [Redux Hooks によるラクラク dispatch & states](https://qiita.com/Ouvill/items/569384e5c8c7ce78f98e) <br>
+※Redux Hooksでは、useSelector と useDispatch を使う <br>
+※connectやmapStateToPropsの記載の箇所が不要となる
+```
+// Redux Hooksでは、不要となる
+const Counter = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(CounterComponents);
+```
+
 ## 省略syntax
 - [260.Shortened Syntax with Redux Thunk](https://www.udemy.com/course/react-redux/learn/lecture/12586868#overview)
 
