@@ -4,7 +4,7 @@
 - サイクル：Action Creator => Action => dispatch => Reducers => State
 - Reducers => 【Provider】 => App => 【Connect】 => SongList
 
-- サンプル：[songs]()
+- サンプル：[songs](https://github.com/endw0901/react_typescript/tree/main/songs/src)
 
 
 ## typescript
@@ -26,7 +26,7 @@ connect()()
 ```
 
 ## サンプル
-
+- サンプル：[songs](https://github.com/endw0901/react_typescript/tree/main/songs/src)
 ```
 // App
 ReactDOM.render(
