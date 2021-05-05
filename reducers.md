@@ -104,6 +104,15 @@ const sound = 'roar';
 
 ```
 
+- [streams](https://github.com/endw0901/react_typescript/tree/main/streams/client/src/reducers)
+
+```
+export default (state = INTIAL_STATE, action) => {
+  switch (action.type) {
+    case SIGN_IN:
+      return { ...state, isSignedIn: true, userId: action.payload };
+```
+
 ## 関連
 - [redux-thunk](https://github.com/endw0901/react_typescript/blob/main/redux-thunk.md)
 - [state](https://github.com/endw0901/react_typescript/blob/main/state.md)
