@@ -1,6 +1,8 @@
 # reducers
+- [流れ](reducerがactionをみてdata on payloadを返す => new state object生成)
+- reducerはundefinedは返さない(payloadを返し、stateを返す
 
-## reducers, Actions, Action Types
+## typescrit：reducers, Actions, Action Types
 
 - https://github.com/endw0901/react_typescript/tree/main/redux-ts/src/state
 - https://github.com/endw0901/react_typescript/blob/main/redux-ts/src/state/reducers/repositoriesReducuer.ts
@@ -12,7 +14,7 @@
 - 複数のタイプチェックを1つにまとめる
 - 共通の文字列管理はenumのみに集約する
 
-## RootState
+## typescript：RootState
 
 - state, reducerの戻りinterface:RepositoriesStateを理解している => RootStateで渡す
 - key:value => RootStateでこのdataを持つことををタイプ定義として渡す
