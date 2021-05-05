@@ -24,3 +24,30 @@ function connect() {
 connect()()
 // 結果：Hello
 ```
+
+## サンプル
+
+```
+// App
+ReactDOM.render(
+  <Provider store={createStore(reducers)}>
+    <App />
+  </Provider>,
+  
+// reducers
+const selectedSongReducer = (selectedSong = null, action) => {
+  if (action.type === 'SONG_SELECTED') {
+    return action.payload;
+  }
+  
+// SongList
+const mapStateToProps = state => {
+  return { songs: state.songs };
+};
+
+export default connect(
+  mapStateToProps,
+  { selectSong }
+)(SongList);
+```
+
