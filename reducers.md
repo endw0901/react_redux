@@ -84,6 +84,15 @@ object-base 構文
 return { ...オブジェクト, [key]:value}
 オブジェクト[kay]の値を更新してreturnする構文
 ※[key]は配列作成ではない。オブジェクトのkeyを示しているのみ
+
+// 例
+return { ...state, [action.payload.id]: action.payload };
+
+// 上記は、下記と同じ意味となる
+const newState = { ...state };
+newState[action.payload.id] = action.payload;
+return newState;
+
 ```
 
 ## 関連
