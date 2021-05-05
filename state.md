@@ -7,13 +7,7 @@
 
 - クラスはstate、関数componentはhookでuseState
 
-## 関連
-- [constructor](https://github.com/endw0901/react_typescript/blob/main/constructor.md)
-- [useEffect](https://github.com/endw0901/react_typescript/blob/main/useEffect.md)
-- [useRef](https://github.com/endw0901/react_typescript/blob/main/useRef.md)
-- [lifeCycle](https://github.com/endw0901/react_typescript/blob/main/lifecycle.md)
-- [form](https://github.com/endw0901/react_typescript/edit/main/form.md) <br>
-※inputのvalueをDOMでなくstateで保持<br>
+- [良いstate変更と、悪いstate変更](https://github.com/endw0901/react_typescript/blob/main/reducers.md)
 
 ## useStateに配列を格納
 https://github.com/endw0901/react_typescript/blob/main/rts/src/state/GuestList.tsx
@@ -24,3 +18,12 @@ https://github.com/endw0901/react_typescript/blob/main/rts/src/state/GuestList.t
 ## useStateに単体オブジェクトを格納 typescript定義(undefined)
 
 https://github.com/endw0901/react_typescript/blob/main/rts/src/state/UserSearch.tsx
+
+
+## 関連
+- [constructor](https://github.com/endw0901/react_typescript/blob/main/constructor.md)
+- [useEffect](https://github.com/endw0901/react_typescript/blob/main/useEffect.md)
+- [useRef](https://github.com/endw0901/react_typescript/blob/main/useRef.md)
+- [lifeCycle](https://github.com/endw0901/react_typescript/blob/main/lifecycle.md)
+- [form](https://github.com/endw0901/react_typescript/edit/main/form.md) <br>
+※inputのvalueをDOMでなくstateで保持<br>
