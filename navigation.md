@@ -21,3 +21,12 @@
 - BrouswerRouter・・・localhost:3000/pagetwo
 - HashRouter・・・・・localhost:3000/#/pagetwo
 - MemoryRouter・・・・localhost:3000/
+
+
+- [streams](https://github.com/endw0901/react_typescript/tree/main/streams/client/src) <br>
+※history<br>
+
+```
+import { createBrowserHistory } from 'history';
+export default createBrowserHistory();
+```
