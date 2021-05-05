@@ -39,6 +39,8 @@ const Counter = connect(
 - [非同期処理にredux-thunkやredux-sagaは必要無い](https://qiita.com/Naturalclar/items/6157d0b031bbb00b3c73) <br>
 ※reactのcustom hooksを使えばいい(react-reduxのv7.1～hooks対応)
 
+## サンプル
+- [redux-thunkサンプル：blog](https://github.com/endw0901/react_typescript/tree/main/blog/src)
 
 ## 省略syntax
 - [260.Shortened Syntax with Redux Thunk](https://www.udemy.com/course/react-redux/learn/lecture/12586868#overview)
