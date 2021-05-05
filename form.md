@@ -12,6 +12,7 @@ formでstateを使う<br>
 4. Component再renderされる <br>
 5. state => valueに値を引き渡す   <br>
  <br>
+ 
 ```
 // jsだと、DOMにアクセスしてvalueを取る
 <input value="xxx" />
@@ -31,7 +32,8 @@ state -> {term: 'xxx'}
 5. state => valueに値を引き渡す <br>
   ※Redux Form Reducer => mapStateToProps => props => value<br>
  <br>
- 
+
+
 ## 関連
 - [Event handler](https://github.com/endw0901/react_typescript/blob/main/event_handler.md)
 - [this](https://github.com/endw0901/react_typescript/edit/main/this.md)
