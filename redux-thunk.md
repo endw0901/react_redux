@@ -22,6 +22,40 @@ Action Creator => Action => dispatch => Middleware(redux-thunk) => Reducers => S
  <br>
 4. state更新をトリガーに => redux/react-reduxが再render <br>
 
+## 省略syntax
+- [260.Shortened Syntax with Redux Thunk](https://www.udemy.com/course/react-redux/learn/lecture/12586868#overview)
+
+
+- 1.リファクタリング前
+```
+export const fetchPosts = () => {
+ return async (dispatch) => {
+   const response = await jsonPlaceholder.get('/posts');
+   
+   dispatch({ type: 'FETCH_POSTS', payload: response })
+ };
+};
+
+```
+
+- 2.リファクタリング後 ※変数がなく、returnしかないとき => 外側の{}と、returnを省略できる
+```
+export const fetchPosts = () => 
+  async (dispatch) => {
+   const response = await jsonPlaceholder.get('/posts');
+   
+   dispatch({ type: 'FETCH_POSTS', payload: response })
+ };
+
+↓
+↓
+
+export const fetchPosts = () => async (dispatch) => {
+  const response = await jsonPlaceholder.get('/posts');
+   
+  dispatch({ type: 'FETCH_POSTS', payload: response })
+};
+```
 
 ## 関連
 - [外部API](https://github.com/endw0901/react_typescript/blob/main/api.md)
