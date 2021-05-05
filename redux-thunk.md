@@ -1,5 +1,7 @@
 # redux-thunk
 
+- [typescript版を使う](https://github.com/endw0901/react_typescript/blob/main/reducers.md)
+
 - redux
 - react-redux
 
