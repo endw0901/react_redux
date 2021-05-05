@@ -39,3 +39,4 @@ class App extends React.Component {
 ## 関連
 - [API call : async-await を使わない promise .then 方式 ⇔ async-await 方式](https://github.com/endw0901/javascript/tree/main/lyrics-search)
 - [arror functionでthisのコンテキスト問題を解決](https://github.com/endw0901/react_typescript/edit/main/this.md) 
+- [Async Actions with Redux Thunk](https://github.com/endw0901/react_typescript/edit/main/redux-thunk.md)
