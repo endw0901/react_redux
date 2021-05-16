@@ -9,6 +9,8 @@
 
 - [良いstate変更と、悪いstate変更](https://github.com/endw0901/react_typescript/blob/main/reducers.md)
 
+- immerを使う：https://github.com/endw0901/react_typescript/tree/main/jbook
+
 ## useStateに配列を格納
 https://github.com/endw0901/react_typescript/blob/main/rts/src/state/GuestList.tsx
 
