@@ -1,6 +1,9 @@
 # react_typescript
 
-### [jbook](https://github.com/endw0901/react_typescript/tree/main/jbook)
+## state(actionCreators,reducer,store) - hook図
+https://github.com/endw0901/react_typescript/blob/main/redux-ts/actionCreator.pdf
+
+## [jbook](https://github.com/endw0901/react_typescript/tree/main/jbook)
 
 ```
 npx create-react-app jbook --template typescript
